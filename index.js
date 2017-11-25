@@ -10,7 +10,7 @@ socket.on('disconnect', function(){console.log("disconnected!")});
 var sleep = require("sleep");
 var exec = require('child_process').exec;
 
-
+console.log("kiscica")
 setInterval(()=>{
 //while(true) {
 //	sleep.sleep(2);	
