@@ -13,7 +13,6 @@ socket.on('update', function(){
 	  }
 	  console.log(stdout);
 	});
-	console.log("UPDATED :) ")
+	//console.log("UPDATED :) ")
 });
 socket.on('disconnect', function(){console.log("disconnected!")});
-
